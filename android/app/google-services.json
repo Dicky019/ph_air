@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "54783837135",
+    "firebase_url": "https://phair-skripsi-default-rtdb.firebaseio.com",
+    "project_id": "phair-skripsi",
+    "storage_bucket": "phair-skripsi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54783837135:android:b293a513c19ae98488c8ba",
+        "android_client_info": {
+          "package_name": "com.example.ph_air"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54783837135-j10la4fm1ov4sfa006g3bor76facrruk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiY-mWSDlQ0a_GDfVBt4SZDSmDBwczsj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54783837135-j10la4fm1ov4sfa006g3bor76facrruk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
