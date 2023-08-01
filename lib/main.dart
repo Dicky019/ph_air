@@ -68,11 +68,11 @@ class MainApp extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         ValuePhAirWidget(
-                          title: "Sensor 1",
+                          title: "Mint",
                           sensor: data.sensor1.toString(),
                         ),
                         ValuePhAirWidget(
-                          title: "Sensor 2",
+                          title: "Pakchoy",
                           sensor: data.sensor2.toString(),
                         ),
                       ],
