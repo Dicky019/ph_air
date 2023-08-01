@@ -50,8 +50,28 @@ class StatusPhAirWidget extends StatelessWidget {
       ],
     );
 
+    final phAirNetral = Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        const Icon(
+          LineIcons.pagelines,
+          color: Colors.greenAccent,
+        ),
+        const SizedBox(
+          width: 4,
+        ),
+        Text(
+          "PH Air Netral",
+          style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                color: Colors.greenAccent,
+              ),
+        ),
+      ],
+    );
+
     return Column(
       children: [
+        if (!isSensorPHAirKurang && !isSensorPHAirLebih) phAirNetral,
         if (isSensorPHAirKurang) phAirKurang,
         if (isSensorPHAirLebih) phAirLebih,
       ],
