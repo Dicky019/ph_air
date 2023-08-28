@@ -69,10 +69,12 @@ class MainApp extends StatelessWidget {
                       children: [
                         ValuePhAirWidget(
                           title: "PH Mint",
+                          color: Colors.green,
                           sensor: data.sensor1.toString(),
                         ),
                         ValuePhAirWidget(
                           title: "PH Pakchoy",
+                          color: Colors.green,
                           sensor: data.sensor2.toString(),
                         ),
                       ],
