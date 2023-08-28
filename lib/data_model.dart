@@ -21,8 +21,8 @@ class DataModel {
 
   factory DataModel.fromMap(Map<dynamic, dynamic> map) {
     return DataModel(
-      sensor1: map['Sensor1'] as double,
-      sensor2: map['Sensor2'] as double,
+      sensor1: double.tryParse(map['Sensor1'].toString()) ?? 0.0,
+      sensor2:  double.tryParse(map['Sensor2'].toString()) ?? 0.0,
     );
   }
 
